@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: auto;
+            width: 50%;
+            justify-content: center;
+            margin-top: 10vh;
+
+        }
+
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 700px;
+            text-align: left;
+            line-height: 35px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        th,
+        td {
+            padding-inline: 20px;
+
+        }
+
+
+        .bg-color {
+            background-color: gainsboro;
+
+        }
+
+        #heading>h2,
+        p {
+            margin-inline: 20px;
+        }
+
+
+        #color {
+            background-color: black;
+            color: white;
+        }
+
+        .ss {
+            padding: 2px;
+            background-color: grey;
+            border: none;
+        }
+
+        .hr {
+            padding: 1px;
+            border: 1px solid black;
+            border-inline: none;
+        }
+
+        .bold {
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <table>
+        <tr>
+            <th id="heading">
+                <h2>Balance Sheet</h2>
+                <p>AcmeWidgetCorp</p>
+            </th>
+        </tr>
+        <!-- <thead> -->
+        <tr id="color">
+            <td class="bold"></td>
+            <td class="bold">2019</td>
+            <td class="bold">2020</td>
+            <td class="bold">2021</td>
+        </tr>
+        <tr id="mm">
+            <td class="bold">
+                Assets
+            </td>
+        </tr>
+        <tr class="bg-color" id="mn">
+            <td class="bold">Cash</td>
+            <td>$25</td>
+            <td>$30</td>
+            <td>$28</td>
+        </tr>
+        <tr>
+            <td>This is the cash we currently have on hand</td>
+        </tr>
+        <tr class="bg-color">
+            <td td class="bold">Checking</td>
+            <td>$25</td>
+            <td>$30</td>
+            <td>$53</td>
+        </tr>
+        <tr>
+            <td>Our primary transactional account</td>
+        </tr>
+        <tr class="bg-color">
+            <td class="bold">Savings</td>
+            <td>$500</td>
+            <td>$650</td>
+            <td>$728</td>
+        </tr>
+        <tr>
+            <td>Funds set aside for emergencies</td>
+        </tr>
+        <tr class="bg-color">
+            <td class="bold">Total</td>
+            <td class="bold">$579</td>
+            <td class="bold">$736</td>
+            <td class="bold">$809</td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <hr class="ss">
+            </td>
+        </tr>
+        <!--  -->
+        <tr>
+            <td class="bold">
+                Liabilities
+            </td>
+        </tr>
+        <tr class="bg-color">
+            <td class="bold">Loans</td>
+            <td>$500</td>
+            <td>$250</td>
+            <td>$0</td>
+
+        </tr>
+        <tr>
+            <td>The outstanding balance on our startup loan</td>
+        </tr>
+        <tr class="bg-color">
+            <td class="bold">Expenses</td>
+            <td>$200</td>
+            <td>$300</td>
+            <td>$400</td>
+        </tr>
+        <tr>
+            <td>Annual anticipated expanses, such as payroll</td>
+        </tr>
+        <tr class="bg-color">
+            <td class="bold">Credit</td>
+            <td>$50</td>
+            <td>$50</td>
+            <td>$75</td>
+        </tr>
+        <tr>
+            <td>The outstanding balance on our credit card </td>
+        </tr>
+        <tr>
+            <td class="bold">Total</td>
+            <td class="bold">$760</td>
+            <td class="bold">$600</td>
+            <td class="bold">$475</td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <hr class="hr">
+            </td>
+        </tr>
+        <tr>
+            <td>Net Worth</td>
+        </tr>
+        <tr>
+            <td class="bold">Total</td>
+            <td class="bold">$-171</td>
+            <td class="bold">$136</td>
+            <td class="bold"> $334</td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <hr class="hr">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
